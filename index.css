@@ -1,0 +1,990 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+html,body{
+    width: 100%;
+}
+.main-cont{
+    width: 100%;
+
+        /* css for mobile */
+        @media(max-width:768px) {
+           width: 100%;
+        }
+
+}
+.first-img{
+    width: 100%;
+    height:500px;
+    border: solid black 1px; 
+    background-image: url(/wedding\ bg3.jpg);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* css for mobile */
+    @media(max-width:768px) {
+       background-image: url(Assets/stage\ decor7.jpg);
+       
+
+    }
+ 
+}
+.textbox{
+    /* border: 1px solid black; */
+    height: 40%;
+    width: 50%;
+    border-radius: 10px;
+    position: absolute;
+    left: 37%;
+    top: 44%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* css for mobile view */
+    @media(max-width:768px){
+       position: absolute;
+       padding: 10px;
+       left:28%;
+       top:34%;
+
+    }
+}
+.textbox h1{
+    font-size: 44px;
+
+    @media(max-width:768px){
+       color: rgba(13, 14, 14, 0.922);
+    }
+}
+.textbox button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(orange,red,yellow);
+    transition: 0.3s;
+}
+.textbox button:hover{
+    transform: scale(1.10);
+    border: 2px solid black;
+}
+
+.img-button{
+    margin-top: 15px;
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+}
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(128, 128, 128);
+    border-bottom: 1px solid #dadada;
+    opacity: 1;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    position: sticky;
+    top: 0;
+
+    /* for mobile devices (please again currect it) */
+    @media(max-width:768px){
+        
+        width: 100%;
+        position: absolute;
+        top:0;
+    }
+}
+.nav-logo{
+    width:10% ;
+    height: 100%;
+    /* border: solid black 1px; */
+    margin-right: 200px;
+
+    /* for mobile devices */
+    @media(max-width:768px){
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: 110px;
+       
+    }
+}
+.nav-item{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid black 1px; */
+    padding: 10px;
+   
+    @media(max-width: 768px){
+        display: none;
+    }
+}
+.nav-item-element{
+    /* border: 1px solid black; */
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.nav-item-element:hover{
+    background-color: lightgray;
+}
+/* index page second cont */
+.second-main-cont{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid rgb(230, 12, 12) 1px;
+    display: flex;
+    flex-direction: row;
+
+    /* Css fir mobile view */
+
+    @media (max-width:768px) {
+        width: 100%;
+        height: auto;
+        border: solid skyblue 5px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.second-main-cont-left{
+    width: 30%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.201);
+    /* background:linear-gradient(rgb(170, 166, 166),rgb(230, 225, 225)); */
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 10%;
+
+
+    /* for Mobile CSS */
+    @media (max-width:768px){
+        width: 100%;
+        height: 1%;
+        padding: 0%;
+        margin: 0%;
+    }
+}
+.smcl-button{
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    color: black;
+    background: linear-gradient(orange,red,yellow);
+    border: solid black 1px;
+    border-radius: 15px;
+
+    /* for Mobile CSS */
+    @media (max-width:768px){
+       
+     }
+}
+.second-main-cont-right{
+    width: 50%;
+    height: 100%;
+    margin-right: 10%;
+    /* background-color: rgb(255, 140, 0); */
+    display: flex;
+    flex-wrap: wrap;
+
+     /* for Mobile CSS */
+     @media (max-width:768px) {
+     width: 100%;  
+     height: 50%;
+     display: flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    flex-wrap: none;
+    margin: none;
+    /* border: solid orange 2px; */
+   
+    }
+
+  } 
+
+.smcr-box{
+    width: 33%;
+    height: 50%;
+    border: solid black 1px;
+
+    @media (max-width:768px) {
+        width: 100%;
+        height: 16%;
+        /* border: solid palevioletred 2px; */
+        margin-bottom: 2px;
+        margin-top: 10px;
+    }
+}
+.smcr-box:hover{
+    background: linear-gradient(orange,rgba(255, 166, 0, 0.389));
+}
+.o-logo{
+    width: 100%;
+    height: 50%;
+    /* border: solid black 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width:768px){
+        margin-top: 5px;
+    }
+ 
+}
+.o-down{
+    width: 100%;
+    height: 50%;
+    /* border: solid black 1px; */
+    text-align: center;
+
+}
+
+.icon
+{
+    font-size: 70px; 
+    
+    @media (max-width:768px){
+        font-size: 50px;
+        
+    }
+    
+}
+
+/*third container down  */
+.third-main-cont{
+    width: 100%;
+    height: 150px;
+    border: solid black 1px;
+    display: flex;
+    background:linear-gradient(rgba(255, 0, 0, 0.911),orange,yellow);
+
+    @media (max-width:768px){
+       display: none;
+        
+    }
+    
+}
+.third-main-cont-left{
+    width: 70%;
+    height: 100%;
+    margin-left: 80px;
+    /* border:solid black; */
+    text-align: left;
+    padding: 5px;
+    
+}
+.third-main-cont-right{
+    width: 30%;
+    height: 100%;
+    /* border:solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tmcr-button{
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    background:linear-gradient(rgba(239, 5, 5, 0.911),orange,yellow);
+}
+/* fouth container */
+.fourth-main-cont{
+    width: 100%;
+    height: 150px;
+    border: solid black 1px;
+    text-align: center;
+
+    @media (max-width:768px) {
+        margin-bottom: 10px;
+        background: linear-gradient(rgba(239, 5, 5, 0.911),orange,yellow);
+    }
+}
+/* fifth container */
+.fifth-main-cont{
+    width: 100%;
+    height: 500px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+
+     @media (max-width:768px) {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: none;
+    }
+}
+.fifth-cont-img{
+    width: 25%;
+    height: 50%;
+    border: solid black 1px;
+
+    @media (max-width:768px) {
+        width: 100%;
+        height: auto;
+    }
+}
+.Gallery-view-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.b-view-gallery{
+    background:linear-gradient(rgba(255, 0, 0, 0.911),orange,yellow);
+
+}
+/* sixth container start here */
+.sixth-main-cont{
+    width: 100%;
+    height: 400px;
+    border:solid black 1px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: scroll;
+   
+}
+.fci{
+    width: 100%;
+    height: 100%;
+    border: solid white 4px;
+}
+
+.expertise-services{
+    width: 33%;
+    height:100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border:solid black 1px;
+
+    @media (max-width:768px) {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+    }
+}
+.expertise-services-cont1{
+    width: 100%;
+    height: 100%;
+    background-image: url(Assets/weding\ party\ img.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.expertise-services-cont2{
+    width: 100%;
+    height: 100%;
+    background-image: url(Assets/Birthday\ Decoration.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.expertise-services-cont3{
+    width: 100%;
+    height: 100%;
+    background-image: url(Assets/meeting\ decor.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.expertise-services-cont4{
+    width: 100%;
+    height: 100%;
+    background-image: url(Assets/them\ party.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.expertise-services-cont5{
+    width: 100%;
+    height: 100%;
+    background-image: url(Assets/reception\ party.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.expertise-services-cont6{
+    width: 100%;
+    height: 100%;
+    background-image: url(Assets/veg\ non\ veg\ catering.jpg);
+    background-size: cover;
+    border-radius: 15px;
+} 
+.expertise-button{
+    position: relative;
+    top: 250px;
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 210px;
+    height: 50px;
+    font-size: 15px;
+}
+.expertise-button:hover{
+    background:linear-gradient(rgba(255, 0, 0, 0.911),orange,yellow);
+}
+/* footer section start */
+.comman-footer-section{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    background:linear-gradient(grey,rgb(152, 147, 147),rgb(196, 191, 191));
+    /* border: solid red 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    @media (max-width:768px) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(128, 128, 128, 0.355);
+    }
+}
+.comman-footer-section-cont{
+    width: 25%;
+    height: 100%;
+    /* border:solid orange 1px; */
+
+    @media (max-width:768px) {
+        width: 100%;
+        height: auto;
+        
+    }
+}
+.address{
+    width: 100%;
+    height: 30%;
+    padding: 6px;
+    border: solid black 1px;
+    
+}
+
+.network{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+/* h mean heading her */
+.useful-link-h{
+    text-align: center;
+}
+.useful-link{
+    width: 100%;
+    height: 80%;
+    border: solid black 1px;
+    padding: 20px;
+}
+.useful-link-items{
+    width: 100%;
+    height: 16%;
+    /* border:solid pink 1px;   */
+    border: solid black 1px;
+    text-align: center;
+    padding: 10px;
+}
+/* h mean heading her */
+.direction-h{
+    text-align: center;
+}
+.direction{
+    width: 100%;
+    height: 80%;
+    /* border: solid orange 2px; */
+    padding: 20px;
+}
+.map-f{
+    width: 100%;
+    height: 100%;
+}
+/* footer section end */
+
+
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+/*************************** About Section css start here***************************/
+
+.main-cont-about{
+    width: 100%;
+    background-color:whitesmoke;
+}
+.about-us{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 70px; */
+    
+
+    @media (max-width:412px) {
+        display: flex;
+        flex-direction: column;
+         
+     }
+}
+
+.what-we-are{
+    width: 30%;
+    height: auto;
+    border: solid black 1px;
+    background-color: white;
+    padding: 30px;
+
+    @media (max-width:412px) {
+       width: 100%;
+       height: auto;
+         
+     }
+     
+}
+.wwa-p{
+    font-size: 24px;
+}
+.what-we-are-1{
+
+    text-align: center;
+   
+}
+.b1{
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    background: linear-gradient(rgba(255, 0, 0, 0.911),orange,yellow)
+}
+.our-team{
+    width: 100%;
+    height: auto;
+   
+}
+
+.team-member{
+    width: 80%;
+    height: 600px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    flex-wrap: wrap;
+   
+    @media (max-width:412px) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        /* overflow:hidden; */
+       margin: 0;
+       align-items: center;
+        
+    }
+}
+.team-member-display{
+    width: 30%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin-right: 50px;
+    /* border-radius: 50%; */
+    /* border: solid violet 2px; */
+    text-align: center;
+
+    @media (max-width:412px) {
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+        /* padding: 10px; */
+        
+    }
+}
+.team-member-display-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 70%;
+}
+.client-review-main-cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    @media (max-width:412px) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.clients-rewiew{
+    width: 60%;
+    height: auto;
+    padding: 15px;
+
+    @media (max-width:412px){
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+
+    }
+   
+}
+.clients-rewiew-details{
+    /* text-align: center; */
+}
+.booking-now{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgba(255, 0, 0, 0.911),orange,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    @media (max-width:412px) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+}
+
+.booking-now-text{
+    width: 70%;
+    height: 100%;
+    font-size: 25px;
+    /* border: solid black 1px; */
+
+    @media (max-width:412px) {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    
+}
+.cccc{
+    @media (max-width:412px) {
+        margin-top: 10px;
+    }
+}
+.bookingg-now-button{
+    width: 30%;
+    height: 100%;
+    /* border: solid black 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width:412px) {
+        width: 50%;
+        margin-top: 15px;
+    }
+}
+
+.bookingg-now-button-display{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    background: linear-gradient(rgba(248, 29, 29, 0.685),orange,yellow);
+    padding: 5px;
+
+    @media (max-width:412px){
+        width: 150px;
+        height: 40px;
+    }
+}
+
+
+
+/* ******************SERVICES CSS START HERE****************** */
+/* ******************SERVICES CSS START HERE****************** */
+/* ******************SERVICES CSS START HERE****************** */
+/* ******************SERVICES CSS START HERE****************** */
+/* ******************SERVICES CSS START HERE****************** */
+/* ******************SERVICES CSS START HERE****************** */
+/* ******************SERVICES CSS START HERE****************** */
+.services-headding{
+    @media (max-width:768px) {
+        margin-top: 80px;
+    }
+   
+}
+.services-main-cont{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* display: flex; */
+
+
+    @media (max-width:768px) {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+.our-services-tabs{
+    width: 30%;
+    height: 400px;
+    box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.4);
+    background-color: white;
+    border: solid black 2px;
+    margin-bottom: 30px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width:768px) {
+    width: 100%;
+    height: auto;
+    /* padding: 10px; */
+    box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.4);
+    }
+}
+.our-services-tabs-img{
+    width: 100%;
+    height: 60%;
+    border: solid black 2px;
+    /* margin-bottom: 15px; */
+}
+.imges-services{
+    width: 100%;
+    height: 100%;
+}
+.our-services-tabs-specification{
+    width: 100%;
+    height: 40%;
+    border: solid black 2px;
+    padding: 20px;
+}
+.our-services-tabs-specification-button{
+    width: 120px;
+    height: 40px;
+    margin-left: 30%;
+    border-radius: 15px;
+    background: linear-gradient(rgba(255, 0, 0, 0.911),orange,yellow);
+}
+
+/* ****************************CONTACT-US-SECTION********************************** */
+/* ****************************CONTACT-US-SECTION********************************** */
+/* ****************************CONTACT-US-SECTION********************************** */
+/* ****************************CONTACT-US-SECTION********************************** */
+/* ****************************CONTACT-US-SECTION********************************** */
+/* ****************************CONTACT-US-SECTION********************************** */
+.social-network-displayy{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+    @media (max-width:768px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+   
+}
+.social-network-display-icons{
+    width: 20%;
+    height:100%;
+    background-color: whitesmoke;
+    /* border: solid blue 2px; */
+    padding: 50px;
+
+     @media (max-width:768px) {
+       width: 50%;
+       height: auto;
+       display: flex;
+       /* flex-direction: column; */
+    }
+    
+}
+.img-settings{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+
+
+    @media (max-width:768px) {
+        width: 100%;
+        height: 50px;
+        background-color: whitesmoke;
+    }
+}
+.img-settings-adjust{
+    width: 100%;
+    height: 100%;
+    @media (max-width:768px) {
+        width: 50px;
+        height: 50px;
+        margin-left: 30px;
+    }
+}
+.img-settings:hover{
+    background-color: blueviolet;
+}
+.form-enquiry{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+     margin-top: 20px;
+     
+}
+form{
+    width: 70%;
+    height:auto;
+   
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    padding: 10px;
+    
+   
+}
+input{
+    width: 49%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: solid black 1px;
+    border-radius: 8px;
+}
+.Message{
+    width: 99%;
+    height: 100px;
+}
+.form-button{
+    width: 140px;
+    height: 25PX;
+    border-radius: 15px;
+    background: linear-gradient(rgba(255, 0, 0, 0.911),orange,yellow);
+}
+/* **********************GALLERY CSS START HERE************************* */
+/* **********************GALLERY CSS START HERE************************* */
+/* **********************GALLERY CSS START HERE************************* */
+/* **********************GALLERY CSS START HERE************************* */
+/* **********************GALLERY CSS START HERE************************* */
+/* **********************GALLERY CSS START HERE************************* */
+
+.about-photography-quotes{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background: linear-gradient(rgba(255, 0, 0, 0.911),orange,yellow);
+    /* margin-top: 50px; */
+
+    @media (max-width:767px) {
+        width: 100%;
+        height: 150px;
+        margin-top: 65px;
+    }
+
+}
+.headings{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.gallery-sectionn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+
+    
+    @media (max-width:767px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+   
+}
+.gallery-sectionn-img{
+    width: 25%;
+    height: auto;
+    padding: 10px;
+    border: solid white 4px;
+
+    
+    @media (max-width:767px) {
+        width: 100%;
+        height: auto;
+      
+    }
+}
+.gallery-sectionn-img-size{
+    width: 100%;
+    height: 100%;
+}
+
+/************************ SITEMAP CSS *******************************/
+/************************ SITEMAP CSS *******************************/
+/************************ SITEMAP CSS *******************************/
+/************************ SITEMAP CSS *******************************/
+/************************ SITEMAP CSS *******************************/
+
+.sitemap-map{
+    width: 100%;
+    height: 675px;
+
+    @media (max-width:767px) {
+
+        width: 100%;
+        height: 900px;
+    }
+}
+.ssm{
+    width: 100%;
+    height: 100%;
+}
